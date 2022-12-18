@@ -1,0 +1,33 @@
+.PreNav{
+    background-color: rgb(29, 28, 28);
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    color:aliceblue;
+    
+}
+.PreNav>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.PreNav>div>a{
+  color: aliceblue;
+  font-size: .9vmax;
+  font-family: cursive;
+  margin: 1vmax;
+  text-decoration: none;
+    
+}
+.PreNav>div >span{
+   color: rgb(180, 180, 180,0.644);
+
+}
+
+.PreNav>div>a:hover{
+    color: rgb(118, 120, 120);
+    transition: 0.5s ease-in-out;
+}
+.PreNav>div svg{
+    fill: white;
+     
+}

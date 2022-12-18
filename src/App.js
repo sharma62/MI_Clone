@@ -1,10 +1,13 @@
  import './App.css';
-
+import Navbar from './components/Navbar';
+import PreNav from './components/PreNav';
+  
 function App() {
   return (
-    <>
-      <h1>mi store </h1>
-    </>
+    <> 
+        <PreNav/> 
+        <Navbar/>
+     </>
   );
 }
 
