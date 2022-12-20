@@ -1,12 +1,14 @@
- import './App.css';
+import './App.css';
 import Navbar from './components/Navbar';
-import PreNav from './components/PreNav';
-  
+import Slider from './components/Slider';
+ 
 function App() {
   return (
-    <> 
-        <PreNav/> 
-        <Navbar/>
+    <>
+        <Navbar />
+        <Slider/>
+
+        
      </>
   );
 }
