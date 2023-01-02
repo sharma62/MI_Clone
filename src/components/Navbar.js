@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <>
       <PreNav />
-      <div className='nav'>
+      {/* <div className='nav'>
         <div className="logo">
           <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Xiaomi_logo_%282021-%29.svg" alt="" />
         </div>
@@ -24,7 +24,7 @@ function Navbar() {
         </form>
 
         </div>
-      </div>
+      </div> */}
 
     </>
   )
