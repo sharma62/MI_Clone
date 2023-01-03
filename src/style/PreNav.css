@@ -1,9 +1,10 @@
 .PreNav{
     background-color: rgb(29, 28, 28);
     display: grid;
-    grid-template-columns: 5fr 2fr;
+    grid-template-columns: 4fr 2.5fr;
     color:aliceblue;
-    
+    line-height: .1vmax;
+      
 }
 .PreNav>div{
     display: flex;
@@ -30,4 +31,9 @@
 .PreNav>div svg{
     fill: white;
      
+}
+.cart-icon{
+    color: rgb(194, 194, 199);
+    margin-left: 15px;
+    font-size:150%;
 }

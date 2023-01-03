@@ -79,13 +79,13 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function Example() {
+export default function PostNav() {
   return (
-    <Popover className="relative bg-white">
+    <Popover className="relative bg-white" >
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="flex items-center justify-between border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
-            <a href="#">
+            <a href="/">
               <span className="sr-only">Your Company</span>
               <img
                 className="h-8 w-auto sm:h-10"
@@ -166,10 +166,10 @@ export default function Example() {
               )}
             </Popover>
 
-            <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
+            <a href="/" className="text-base font-medium text-gray-500 hover:text-gray-900">
               Pricing
             </a>
-            <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
+            <a href="/" className="text-base font-medium text-gray-500 hover:text-gray-900">
               Docs
             </a>
 
@@ -221,7 +221,7 @@ export default function Example() {
                         <div className="bg-gray-50 px-5 py-5 sm:px-8 sm:py-8">
                           <div>
                             <h3 className="text-base font-medium text-gray-500">Recent Posts</h3>
-                            <ul role="list" className="mt-4 space-y-4">
+                            <ul className="mt-4 space-y-4">
                               {recentPosts.map((post) => (
                                 <li key={post.id} className="truncate text-base">
                                   <a href={post.href} className="font-medium text-gray-900 hover:text-gray-700">
@@ -232,7 +232,7 @@ export default function Example() {
                             </ul>
                           </div>
                           <div className="mt-5 text-sm">
-                            <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
+                            <a href="/" className="font-medium text-indigo-600 hover:text-indigo-500">
                               View all posts
                               <span aria-hidden="true"> &rarr;</span>
                             </a>
@@ -246,11 +246,11 @@ export default function Example() {
             </Popover>
           </Popover.Group>
           <div className="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
-            <a href="#" className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">
+            <a href="/" className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">
               Sign in
             </a>
             <a
-              href="#"
+              href="/"
               className="ml-8 inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
             >
               Sign up
@@ -303,11 +303,11 @@ export default function Example() {
             </div>
             <div className="space-y-6 py-6 px-5">
               <div className="grid grid-cols-2 gap-y-4 gap-x-8">
-                <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                <a href="/" className="text-base font-medium text-gray-900 hover:text-gray-700">
                   Pricing
                 </a>
 
-                <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                <a href="/" className="text-base font-medium text-gray-900 hover:text-gray-700">
                   Docs
                 </a>
                 {resources.map((item) => (
@@ -322,14 +322,14 @@ export default function Example() {
               </div>
               <div>
                 <a
-                  href="#"
+                  href="/"
                   className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
                 >
                   Sign up
                 </a>
                 <p className="mt-6 text-center text-base font-medium text-gray-500">
                   Existing customer?{' '}
-                  <a href="#" className="text-indigo-600 hover:text-indigo-500">
+                  <a href="/" className="text-indigo-600 hover:text-indigo-500">
                     Sign in
                   </a>
                 </p>
